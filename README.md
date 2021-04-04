@@ -1,6 +1,6 @@
-# wakib-keybindings README
+# Wakib Keymap for VS Code
 
-This is the README for your extension "wakib-keybindings". After writing up a brief description, we recommend including the following sections.
+This extensions ports Wakib keybindings to Visual Studio Code. 
 
 ## Features
 
