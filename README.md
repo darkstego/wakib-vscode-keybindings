@@ -4,6 +4,10 @@ This extensions ports Wakib keybindings to Visual Studio Code.
 
 ## Features
 
+Wakib is a set of keybindings that aims to be efficient, ergonomic and easy to learn. 
+
+Initially developed as an alternate keybinding for Emacs, it aims to keep the fingers on the keyboard, providing the same efficiency as Emacs and Vim bindings while being more ergonamic than Emacs and quicker to pick up than vim. 
+
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
 For example if there is an image subfolder under your extension project workspace:
@@ -12,9 +16,6 @@ For example if there is an image subfolder under your extension project workspac
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
 
