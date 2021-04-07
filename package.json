@@ -120,6 +120,16 @@
 	      "command": "editor.action.selectFromAnchorToCursor",
 	      "when": "textInputFocus && selectionAnchorSet"
 	  },
+	  {
+	      "key": "alt+;",
+	      "command": "editor.action.nextMatchFindAction",
+	      "when": "editorFocus && findInputFocussed"
+	  },
+	  {
+	      "key": "shift+alt+;",
+	      "command": "editor.action.previousMatchFindAction",
+	      "when": "editorFocus && findInputFocussed"
+	  },
       ]
   },
 }
