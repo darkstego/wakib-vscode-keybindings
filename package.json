@@ -130,6 +130,27 @@
 	      "command": "editor.action.previousMatchFindAction",
 	      "when": "editorFocus && findInputFocussed"
 	  },
+	  {
+		"key": "alt+;",
+		"command": "list.focusDown",
+		"when": "listFocus && !inputFocus"
+		},
+		{
+		"key": "shift+alt+;",
+		"command": "list.focusUp",
+		"when": "listFocus && !inputFocus"
+		},	
+		{
+			"key": "alt+;",
+			"command": "selectNextSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
+		},	
+		{
+			"key": "shift+alt+;",
+			"command": "selectPrevSuggestion",
+			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
+		},		
+		
       ]
   },
 }
