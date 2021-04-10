@@ -107,7 +107,7 @@
 	  },
 	  {
 	      "key": "alt+w",
-	      "command": "editor.action.deleteLine",
+	      "command": "editor.action.deleteLines",
 	      "when": "textInputFocus && !editorReadOnly"
 	  },
 	  {
