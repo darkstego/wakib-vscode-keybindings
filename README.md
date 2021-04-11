@@ -1,5 +1,5 @@
-![logo](https://raw.githubusercontent.com/darkstego/wakib-vscode-keybindings/main/images/icon.png) 
-# Wakib Keymap for VS Code 
+<h2 align="center"><img src="https://raw.githubusercontent.com/darkstego/wakib-vscode-keybindings/main/images/icon.png" height="128"><br>Wakib VSCode</h2>
+<p align="center"><strong>Wakib Keymap for Visual Studio Code</strong></p>
 
 This extensions ports Wakib keybindings to Visual Studio Code. 
 
@@ -31,3 +31,5 @@ Initially developed as an alternate keybinding for Emacs, it aims to keep the fi
 | Delete Line Right | alt+shift+r
 | Delete Line  | alt+w
 | Select Start/End | alt+s
+| Next | alt+;
+| Previous | alt+shift+;

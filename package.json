@@ -1,156 +1,156 @@
 {
-  "name": "wakib-keybindings",
-  "displayName": "Wakib Keymap",
-  "description": "Wakib Keybindings for Visual Studio Code",
-  "version": "0.1.0",
-  "publisher": "darkstego",
-  "icon": "images/icon.png",
-  "engines": {
-    "vscode": "^1.46.0"
-  },
-  "categories": [
-    "Keymaps"
-  ],
-  "galleryBanner": {
-    "color": "#4F87FF",
-    "theme": "light"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/darkstego/wakib-vscode-keybindings/wakib-vscode-keybindings.git"
-  },
-  "homepage": "https://github.com/darkstego/wakib-vscode-keybindings",
-  "bugs": {
-    "url": "https://github.com/darkstego/wakib-vscode-keybindings/issues"
-  },
-  "contributes": {
-      "keybindings" : [
-	  {
-	      "key": "alt+j",
-	      "command": "cursorLeft",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+l",
-	      "command": "cursorRight",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+i",
-	      "command": "cursorUp",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+k",
-	      "command": "cursorDown",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+u",
-	      "command": "cursorWordLeft",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+o",
-	      "command": "cursorWordRight",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "shift+alt+i",
-	      "command": "cursorPageUp",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "shift+alt+k",
-	      "command": "cursorPageDown",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "shift+alt+u",
-	      "command": "cursorLineStart",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "shift+alt+o",
-	      "command": "cursorLineEnd",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+d",
-	      "command": "deleteLeft",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+f",
-	      "command": "deleteRight",
-	      "when": "textInputFocus"
-	  },
-	  {
-	      "key": "alt+e",
-	      "command": "deleteWordLeft",
-	      "when": "textInputFocus && !editorReadOnly"
-	  },
-	  {
-	      "key": "alt+r",
-	      "command": "deleteWordRight",
-	      "when": "textInputFocus && !editorReadOnly"
-	  },
-	  {
-	      "key": "shift+alt+e",
-	      "command": "deleteAllLeft",
-	      "when": "textInputFocus && !editorReadOnly"
-	  },
-	  {
-	      "key": "shift+alt+r",
-	      "command": "deleteAllRight",
-	      "when": "textInputFocus && !editorReadOnly"
-	  },
-	  {
-	      "key": "alt+w",
-	      "command": "editor.action.deleteLines",
-	      "when": "textInputFocus && !editorReadOnly"
-	  },
-	  {
-	      "key": "alt+s",
-	      "command": "editor.action.setSelectionAnchor",
-	      "when": "textInputFocus && !selectionAnchorSet"
-	  },
-	  {
-	      "key": "alt+s",
-	      "command": "editor.action.selectFromAnchorToCursor",
-	      "when": "textInputFocus && selectionAnchorSet"
-	  },
-	  {
-	      "key": "alt+;",
-	      "command": "editor.action.nextMatchFindAction",
-	      "when": "editorFocus && findInputFocussed"
-	  },
-	  {
-	      "key": "shift+alt+;",
-	      "command": "editor.action.previousMatchFindAction",
-	      "when": "editorFocus && findInputFocussed"
-	  },
-	  {
+    "name": "wakib-keybindings",
+    "displayName": "Wakib Keymap",
+    "description": "Wakib Keybindings for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "darkstego",
+    "icon": "images/icon.png",
+    "engines": {
+	"vscode": "^1.46.0"
+    },
+    "categories": [
+	"Keymaps"
+    ],
+    "galleryBanner": {
+	"color": "#4F87FF",
+	"theme": "light"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/darkstego/wakib-vscode-keybindings/wakib-vscode-keybindings.git"
+    },
+    "homepage": "https://github.com/darkstego/wakib-vscode-keybindings",
+    "bugs": {
+	"url": "https://github.com/darkstego/wakib-vscode-keybindings/issues"
+    },
+    "contributes": {
+	"keybindings" : [
+	    {
+		"key": "alt+j",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+l",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+i",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+k",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+u",
+		"command": "cursorWordLeft",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+o",
+		"command": "cursorWordRight",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "shift+alt+i",
+		"command": "cursorPageUp",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "shift+alt+k",
+		"command": "cursorPageDown",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "shift+alt+u",
+		"command": "cursorLineStart",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "shift+alt+o",
+		"command": "cursorLineEnd",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+d",
+		"command": "deleteLeft",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+f",
+		"command": "deleteRight",
+		"when": "textInputFocus"
+	    },
+	    {
+		"key": "alt+e",
+		"command": "deleteWordLeft",
+		"when": "textInputFocus && !editorReadOnly"
+	    },
+	    {
+		"key": "alt+r",
+		"command": "deleteWordRight",
+		"when": "textInputFocus && !editorReadOnly"
+	    },
+	    {
+		"key": "shift+alt+e",
+		"command": "deleteAllLeft",
+		"when": "textInputFocus && !editorReadOnly"
+	    },
+	    {
+		"key": "shift+alt+r",
+		"command": "deleteAllRight",
+		"when": "textInputFocus && !editorReadOnly"
+	    },
+	    {
+		"key": "alt+w",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadOnly"
+	    },
+	    {
+		"key": "alt+s",
+		"command": "editor.action.setSelectionAnchor",
+		"when": "textInputFocus && !selectionAnchorSet"
+	    },
+	    {
+		"key": "alt+s",
+		"command": "editor.action.selectFromAnchorToCursor",
+		"when": "textInputFocus && selectionAnchorSet"
+	    },
+	    {
+		"key": "alt+;",
+		"command": "editor.action.nextMatchFindAction",
+		"when": "editorFocus && findInputFocussed"
+	    },
+	    {
+		"key": "shift+alt+;",
+		"command": "editor.action.previousMatchFindAction",
+		"when": "editorFocus && findInputFocussed"
+	    },
+	    {
 		"key": "alt+;",
 		"command": "list.focusDown",
 		"when": "listFocus && !inputFocus"
-		},
-		{
+	    },
+	    {
 		"key": "shift+alt+;",
 		"command": "list.focusUp",
 		"when": "listFocus && !inputFocus"
-		},	
-		{
-			"key": "alt+;",
-			"command": "selectNextSuggestion",
-			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
-		},	
-		{
-			"key": "shift+alt+;",
-			"command": "selectPrevSuggestion",
-			"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
-		},		
-		
-      ]
-  },
+	    },	
+	    {
+		"key": "alt+;",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
+	    },	
+	    {
+		"key": "shift+alt+;",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
+	    },		
+	    
+	]
+    },
 }
