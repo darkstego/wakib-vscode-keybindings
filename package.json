@@ -149,8 +149,8 @@
 		"key": "shift+alt+;",
 		"command": "selectPrevSuggestion",
 		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && inputFocus"
-	    },		
+	    }		
 	    
 	]
-    },
+    }
 }
