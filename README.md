@@ -1,4 +1,4 @@
-<h2 align="center"><img src="https://raw.githubusercontent.com/darkstego/wakib-vscode-keybindings/main/images/icon.png" height="128"><br>Wakib VSCode</h2>
+<h2 align="center"><img src="https://user-images.githubusercontent.com/2610287/236253542-ab75c56d-0bbc-457a-8587-d5d2c78d0eb3.svg" height="128">
 <p align="center"><strong>Wakib Keymap for Visual Studio Code</strong></p>
 
 This extensions ports Wakib keybindings to Visual Studio Code. 
