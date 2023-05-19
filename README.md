@@ -10,6 +10,10 @@ Wakib is a set of keybindings that aims to be efficient, ergonomic and easy to l
 Initially developed as an alternate keybinding for Emacs, it aims to keep the fingers on the keyboard, providing the same efficiency as Emacs and Vim bindings while being more ergonamic than Emacs and quicker to pick up than vim. 
 
 ## What keyboard shortcuts are included?
+  
+![keyboard-layout (3)](https://github.com/darkstego/wakib-vscode-keybindings/assets/2610287/9430d594-024a-43f5-bf48-3fd666069de8)
+
+  
 
 | Command | Key |
 | :---------: | :---------: |
