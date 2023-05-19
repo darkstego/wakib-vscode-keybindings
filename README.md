@@ -5,7 +5,9 @@
 
 Wakib is a set of keybindings that aims to be efficient, ergonomic and easy to learn. 
 
-Initially developed as an alternate keybinding for Emacs, it aims to keep the fingers on the keyboard, providing the same efficiency as Emacs and Vim bindings while being more ergonamic than Emacs and quicker to pick up than vim. 
+Initially developed as an alternate keybinding for Emacs, it aims to keep the fingers on the keyboard, providing the same efficiency as Emacs and Vim bindings while being more ergonamic than Emacs and quicker to pick up than vim.
+  
+If you like the keybindings please check out the [Wakib project page](https://github.com/darkstego/wakib-project) for implementations that can be used elsewhere.
 
 ## What keyboard shortcuts are included?
   
