@@ -1,4 +1,4 @@
-<h2 align="center"><img src="https://github.com/darkstego/wakib-vscode-keybindings/assets/2610287/6012b789-b251-4bd0-996b-bcdabec77ef7" height="128">
+<h2 align="center"><img src="https://raw.githubusercontent.com/darkstego/wakib-project/refs/heads/main/assets/wakib-logo.svg" width="250" alt="Wakib Logo">
 <p align="center"><strong>Wakib Keymap for Visual Studio Code</strong></p>
 
 ## Features
